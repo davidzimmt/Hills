@@ -1,0 +1,52 @@
+body{
+    background-color: lightblue;
+}
+.h1 , .h2 {
+    text-align: center;
+}
+
+.taskDiv{
+    border: solid 2px;
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    background-color: lightpink;
+    text-align: center;
+}
+.addButton{
+    border: solid 2px;
+}
+#ul1 {
+    list-style-type: none;
+    width: 661px;
+    /* border: solid 1px; */
+    margin: auto;
+    
+}
+li{
+    /* border: solid 1px; */
+    /* width: 661px; */
+    margin: auto;
+    background-color: lightgray;
+    
+
+}
+.checked{
+   background-color: red;
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
